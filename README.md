@@ -5,17 +5,22 @@ This page has been translated to [Chinese](https://github.com/monklof/Back-End-D
 
 
 I'm not a big fan of asking technical questions in job interviews: I'd rather prefer to sit together with candidates in front of some real code, facing a real problem, and have a full day of pair programming rotating with all the team members. Yet, some technical questions could be used to start a deep and nice conversation, and this can be useful to get a deeper knowledge of each other.
+- 나는 구직 인터뷰를 위한 기술 질문 덕후는 아니다. 차라리 면접자와 같이 리얼 코드 앞에 앉아서, 실제 문제를 마주하고, 그리고 모든 팀 멤버와 하루종일 페어 프로그래밍을 하는 것을 선호하다. 여전히, 몇몇 기술적 질문으로 깊고 좋은 인터뷰를 시작하는데 익숙하고, 서로 깊은 지식을 얻는데 유용하다.
 
 This repo contains a number of backend interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
+- 이 저장소는 인터뷰시에 사용 될 만한 몇가지 백엔드 인터뷰 질문을 담고 있다. 동일한 인터뷰 후보자에게 모든 질문을 사용하는 것은 바람직하지 않습니다(많은 시간이 걸린다). 이 목록에서 몇 가지 항목을 선택하여 인터뷰 후보자에게 기대하는 기술을 확인하는 데 도움이 됩니다.
 
 This project is admittedly inspired by [Front-end Job Interview Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions) by [@darcyclarke](https://github.com/darcyclarke)
+- 이 프로젝트는 다음 저장소의 영감을 받아 작성되었습니다.
 
 **Note:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would. Again, I stress that just asking question is hardly sufficient. Complete the interview with a long pair programming session with your candidates: it is one of the best opportunities to know each other's style and approach and to let candidates know some details about their future day job.
+- **주의** 이 질문 중 많은 부분은 정해진 답이 없으므로 직접적인 대답보다 능력에 대해 더 많이 알려주는 흥미로운 토론으로 이어질 수 있음을 명심하십시오. 다시 한 번 강조하지만, 질문하는 것만으로는 충분하지 않습니다. 후보자와 긴 페어 프로그래밍 세션 인터뷰를 완료하십시오 : 이는 서로의 스타일과 접근 방식을 알고 후보자가 미래의 직업에 대한 세부 정보를 알 수있는 가장 좋은 기회 중 하나입니다.
 
 
-## <a name='toc'>Table of Contents</a>
+## <a name='toc'>목차(Table of Contents)</a>
 
   1. [General Questions](#general)
+  1. [일반 질문](#general)
   1. [Open Questions](#open)
   1. [Questions about Design Patterns](#patterns)
   1. [Questions about Code Design](#design)
@@ -33,20 +38,47 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [Questions about Security](#security)
   1. [Bill Gates Style Questions](#billgates)
   1. [Questions based on snippets of code](#snippets)
+  1. [정해진 답이 없는(Open) 질문]
+  1. [디자인 패턴 질문]
+  1. [코드 설계 질문]
+  1. [프로그래밍 언어 질문]
+  1. [웹 질문]
+  1. [DB 질문]
+  1. [NoSQL 질문]
+  1. [코드 버전 관리 질문]
+  1. [동시성(Concurrency) 질문]
+  1. [분산 시스템 질문]
+  1. [소프트웨어 생명 주기와 팀 매니지먼트 질문]
+  1. [로직과 알고리즘 질문]
+  1. [소프트웨어 아키텍쳐 질문]
+  1. [서비스 기반 아키텍쳐와 마이크로 서비스 질문]
+  1. [보안 질문]
+  1. [빌 게이츠 스타일 질문]
+  1. [예제 코드 조각 기반 질문]
 
 
 ####[[↑]](#toc) <a name='general'>General Questions:</a>
 
 * Why Functional Programming matters? When should a functional programming language be used?
+* 왜 함수형 프로그래밍 언어가 중요한가? 언제 함수형 언어를 사용하면 좋은가?
 * What's the difference between design, architecture, functionality and aesthetic? Discuss.
+* 설계(Design)와 아키텍쳐(Architecture), 함수성(Functionality)과 심미성(Aesthetic)간의 차이는 무엇인가? 논하시오.
 * How do Companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
+* MS, 구글, 오페라, 모질라 같은 각 회사는 브라우저로부터 이익을 얻는가?
 * Why opening a TCP socket has a large overhead?
+* TCP 소켓을 여는데 왜 큰 오버헤드를 갖는가?
 * What is Encapsulation important for?
+* 캡슐화(Encapsulation)는 무엇에 중요한가?
 * What is a real-time system and how is it different from an ordinary system?
+* 실시간 시스템이란 무엇이며, 일반 시스템과 다른 점은 무엇인가?
 * What's the relationship between real-time languages and heap memory allocation?
+* 실시간 언어와 힙 메모리 할당 사이의 관계는 무엇입니까?
 * Immutability is the practice of setting values once, at the moment of their creation, and never changing them. How immutability can help writing safer code?
+* 불변성(immutability)이란 값(value)을 생성하는 순간에 설정되고 절대 변경되지 않는 관행입니다. 불변성이 어떻게 안전한 코드를 작성하는 데 도움이 되는가?
 * Pro and cons of mutable and immutable values.
+* 변경 가능한(mutable) 값과 변경 불가능한(immutable) 값의 장단 점을 말하시오.
 * What's the Object-Relational impedance mismatch?
+* 객체-관계형 임피던스 불일치란 무엇입니까?
 * Which principles would you apply to define the size of a cache?
 * What's the difference between TCP and HTTP?
 * What are the tradeoffs of client-side rendering vs. server-side rendering?
