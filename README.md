@@ -91,28 +91,51 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>
 * Why do people resist change?
+* 왜 사람들은 변화에 저항합니까?
 * Explain threads to your grandmother
+* 할머니에게 쓰레드(thread)를 설명하십시오.
 * As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
+* 소프트웨어 엔지니어로서 혁신과 예측이 모두 필요합니다. 이 두 가지 목표가 같은 전략에서 어떻게 공존 할 수 있습니까?
 * What makes good code good?
+* 좋은 코드가 좋은 이유는 무엇입니까?
 * Explain streaming and how you would implement it.
+* 스트리밍을 설명하고 구현 방법을 설명하십시오.
 * Say your Company gives you one week you can use to improve your and your colleagues' lifes: how would you use that week?
+* 귀하의 회사가 당신과 당신 동료의 생활을 향상시키는 데 사용할 수 있는 1 주일을 주겠다고 합니다: 그 주를 어떻게 사용 하시겠습니까?
 * What did you learn this week?
+* 이번 주에는 무엇을 배웠습니까?
 * There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?
+* 모든 디자인에는 미적 요소가 있습니다. 이 미학적 요소는 당신의 친구인가요? 당신의 적인가요?
 * List the last 5 books you read.
+* 마지막으로 읽은 5권의 책을 나열하세요.
 * How would you introduce Continue Delivery in a multi million waterfall shop?
+* 수백만 폭포 가게 속에서 지속적인 인도(Continue Delivery)를 어떻게 소개 하겠습니까??
 * Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
+* "바퀴의 재개발"(Reinventing the wheel), "여기서 개발한 것이 아니다 증후군"(NIH Syndrome) 및 "음식을 먹는 것"(Eating Your Own Food) 연습에 대해 대화 해 봅시다.
 * What's the next thing you would automate in your current workflow?
+* 현재 워크 플로우에서 다음으로 자동화 할 작업은 무엇입니까?
 * Why is writing software difficult? What makes maintaining software hard?
+* 소프트웨어를 작성하는 것은 왜 어려운가요? 무엇이 소프트웨어 유지 관리를 어렵게 합니까?
 * Would you prefer working on Green Field or Brown Field projects? Why?
+* 그린 필드 또는 브라운 필드 프로젝트에서 일하기를 원하십니까? 왜?
 * [What happens when you type google.com into your browser and press enter?](https://github.com/alex/what-happens-when)
+* 브라우저에 google.com을 입력하고 Enter 키를 누르면 어떻게됩니까?
 * What does your computer do when you wait?
+* 당신이 기다리는 동안 당신의 컴퓨터는 무엇을 합니까?
 * Explain Unicode/Database Transactions to a 5 year old child.
+* 유니 코드/데이터베이스 트랜잭션을 5 살짜리 아이에게 설명하십시오.
 * Defend the monolithic architecture.
+* 모노리식 아키텍처를 방어하세요.
 * What does it mean to be a "Professional Developer"?
+* "전문 개발자"란 무엇을 의미합니까?
 * Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
+* 소프트웨어를 예술, 장인 정신 또는 공학적 노력으로 개발하고 있습니까?
 * "People who like this also like... ". How would you implement this feature in an e-commerce shop?
+* "이것을 좋아하는 사람은 ...". 전자 상거래 상점에서 이 기능을 구현하는 방법은 무엇입니까?
 * Why are corporations slower than startups in innovating?
+* 왜 기업은 스타트업보다 혁신이 느린가?
 * Why is it said that cryptography is not something you should try to invent or design yourself?
+* 왜 암호화는 당신이 스스로 개발하거나 설계 하려고 노력할 성질의 것이 아니라고 하나요?
 
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
