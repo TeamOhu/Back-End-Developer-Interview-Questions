@@ -22,40 +22,39 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [General Questions](#general)
   1. [일반 질문](#general)
   1. [Open Questions](#open)
+  1. [정해진 답이 없는(Open) 질문](#open)
   1. [Questions about Design Patterns](#patterns)
+  1. [디자인 패턴 질문](#patterns)
   1. [Questions about Code Design](#design)
+  1. [코드 설계 질문](#design)
   1. [Questions about languages](#languages)
+  1. [프로그래밍 언어 질문](#languages)
   1. [Web Questions](#web)
+  1. [웹 질문](#web)
   1. [Databases Questions](#databases)
+  1. [DB 질문](#databases)
   1. [NoSQL Questions](#nosql)
+  1. [NoSQL 질문](#nosql)
   1. [Code Versioning Questions](#codeversioning)
+  1. [코드 버전 관리 질문](#codeversioning)
   1. [Concurrency Questions](#concurrency)
+  1. [동시성(Concurrency) 질문](#concurrency)
   1. [Questions about Distributed Systems](#distributed)
+  1. [분산 시스템 질문](#distributed)
   1. [Questions about Software Lifecycle and Team Management](#management)
+  1. [소프트웨어 생명 주기와 팀 매니지먼트 질문](#management)
   1. [Questions about logic and algorithms](#algorithms)
+  1. [로직과 알고리즘 질문](#algorithms)
   1. [Questions about Software Architecture](#architecture)
+  1. [소프트웨어 아키텍쳐 질문](#architecture)
   1. [Questions about Service Oriented Architecture and Microservices](#soa)
+  1. [서비스 기반 아키텍쳐와 마이크로 서비스 질문](#soa)
   1. [Questions about Security](#security)
+  1. [보안 질문](#security)
   1. [Bill Gates Style Questions](#billgates)
+  1. [빌 게이츠 스타일 질문](#billgates)
   1. [Questions based on snippets of code](#snippets)
-  1. [정해진 답이 없는(Open) 질문]
-  1. [디자인 패턴 질문]
-  1. [코드 설계 질문]
-  1. [프로그래밍 언어 질문]
-  1. [웹 질문]
-  1. [DB 질문]
-  1. [NoSQL 질문]
-  1. [코드 버전 관리 질문]
-  1. [동시성(Concurrency) 질문]
-  1. [분산 시스템 질문]
-  1. [소프트웨어 생명 주기와 팀 매니지먼트 질문]
-  1. [로직과 알고리즘 질문]
-  1. [소프트웨어 아키텍쳐 질문]
-  1. [서비스 기반 아키텍쳐와 마이크로 서비스 질문]
-  1. [보안 질문]
-  1. [빌 게이츠 스타일 질문]
-  1. [예제 코드 조각 기반 질문]
-
+  1. [예제 코드 조각 기반 질문](#snippets)
 
 ####[[↑]](#toc) <a name='general'>General Questions:</a>
 
@@ -80,10 +79,15 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What's the Object-Relational impedance mismatch?
 * 객체-관계형 임피던스 불일치란 무엇입니까?
 * Which principles would you apply to define the size of a cache?
+* 캐시의 크기를 정의하는 데 적용 할 원칙은 어떤 것이 있습니까?
 * What's the difference between TCP and HTTP?
+* TCP와 HTTP의 차이점은 무엇입니까?
 * What are the tradeoffs of client-side rendering vs. server-side rendering?
+* 클라이언트 렌더링과 서버 렌더링 중 선택에서 절충점(tradeoff)은 무엇입니까?
 * How could you develop a reliable communication protocol based on a non-reliable one?
+* 신뢰할 수 없는 통신 프로토콜 기반으로 신뢰할 수 있는 통신 프로토콜을 어떻게 개발할 수 있습니까?
 * [Tony Hoare](https://en.m.wikipedia.org/wiki/Tony_Hoare) who invented the null reference once said "*I call it my billion-dollar mistake*" since it lead to "*innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years*". Imagine you want to remove the possibility to have null references in your preferred language: how would you achieve this goal? What consequences could this have?
+* 널 참조를 발명 한 [Tony Hoare] (https://en.m.wikipedia.org/wiki/Tony_Hoare)는 "*나는 그것을 수십억의 실수라고 부른다*" 지난 40 년 동안 수십억 달러의 고통과 피해를 입혔을 가능성이있는 취약점들과 시스템 고장 "이라고 지적했다. 원하는 언어로 null 참조를 가질 가능성을 제거한다고 가정 해보십시오. 이 목표를 달성하려면 어떻게해야합니까? 이것이 가져올 결과는 무엇입니까?
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>
 * Why do people resist change?
